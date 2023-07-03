@@ -1,0 +1,14 @@
+@import 'app/styles/global/variables';
+
+.input {
+	//font-family: $base-font-family;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	background-color: $main-white;
+	//border: 1px solid $primary;
+	border-radius: 12px;
+	color: $main-black;
+	width: 100%;
+	padding: 12px 24px;
+}

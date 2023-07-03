@@ -1,0 +1,30 @@
+@import 'app/styles/global/variables';
+
+.link {
+	display: inline-flex;
+	align-items: center;
+
+	a {
+		display: inline-flex;
+		align-items: center;
+		//font-family: $base-font-family;
+		font-weight: 400;
+		//font-size: 20px;
+		//line-height: 22px;
+		//text-decoration: none;
+		//color: $main-black;
+		//cursor: pointer;
+		//padding: 16px 32px;
+		//background-color: transparent;
+		//border: 1px solid transparent;
+		//border-radius: 12px;
+	}
+}
+
+.link--primary {
+	a {
+		//border: 1px solid $primary;
+		//background: $primary;
+		color: $main-white;
+	}
+}

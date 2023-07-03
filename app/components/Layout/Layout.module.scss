@@ -1,0 +1,18 @@
+@import 'app/styles/global/variables';
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 1440px;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+.mainContent {
+	display: grid;
+	grid-template-columns: 20% 1fr 20%;
+	gap: 40px;
+	margin-bottom: auto;
+}

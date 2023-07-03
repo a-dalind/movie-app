@@ -1,0 +1,47 @@
+@import 'app/styles/global/variables';
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	//font-family: $base-font-family;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 22px;
+	cursor: pointer;
+	padding: 16px 32px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 12px;
+
+	&:not([disabled]):hover {
+	}
+
+	&[disabled] {
+		cursor: default;
+	}
+}
+
+.btn--primary {
+	//border: 1px solid $primary;
+	//background: $primary;
+	color: $main-white;
+
+	&:hover {
+		//text-decoration: none;
+	}
+
+	&[disabled] {
+		//text-decoration: none;
+	}
+}
+
+.btn--link {
+	&:hover {
+		text-decoration: none;
+	}
+
+	&[disabled] {
+		text-decoration: none;
+	}
+}
