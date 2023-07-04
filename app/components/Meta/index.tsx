@@ -2,7 +2,7 @@ import Head from "next/head";
 import {useRouter} from "next/router";
 import { ISeo } from "./meta.interface";
 import {siteName, titleCombination} from "config/seo.config";
-import {clearText} from "../string/clearText";
+import {clearText} from "utils/string/clearText";
 import { FC } from "react";
 import logoImage from '/public/logo.jpg';
 
@@ -36,9 +36,8 @@ const Meta:FC<ISeo> = ({title, description, image, children}) => {
 					)
 					: <meta name='robots' content='noindex, nofollow'/> }
 
-					</Head>
+				</Head>
 			{children}
-
 		</>
 	)
 }

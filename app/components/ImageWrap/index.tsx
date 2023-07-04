@@ -20,7 +20,7 @@ const ImageWrap: FC<IImageWrap> = ({
 }) => {
 	return (
 		<div className={cn(styles.wrapper, className)}>
-			<Image src={src} alt={alt} width={width} height={height} />
+			<Image src={src} alt={alt} width={width} height={height} draggable={false}/>
 		</div>
 	);
 }
